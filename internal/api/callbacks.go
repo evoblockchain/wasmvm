@@ -45,7 +45,7 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/CosmWasm/wasmvm/types"
+	"github.com/evoblockchain/wasmvm/types"
 )
 
 // Note: we have to include all exports in the same file (at least since they both import bindings.h),

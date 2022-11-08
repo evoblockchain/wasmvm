@@ -1,4 +1,4 @@
-module github.com/CosmWasm/wasmvm
+module github.com/evoblockchain/wasmvm
 
 go 1.17
 

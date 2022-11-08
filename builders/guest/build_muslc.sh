@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e # Note we are not using bash here but the Alpine default shell
 
-# See https://github.com/CosmWasm/wasmvm/issues/222#issuecomment-880616953 for two approaches to
+# See https://github.com/evoblockchain/wasmvm/issues/222#issuecomment-880616953 for two approaches to
 # enable stripping through cargo (if that is desired).
 
 echo "Starting aarch64-unknown-linux-musl build"

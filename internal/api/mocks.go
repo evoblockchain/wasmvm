@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/CosmWasm/wasmvm/types"
+	"github.com/evoblockchain/wasmvm/types"
 )
 
 /** helper constructors **/

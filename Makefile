@@ -44,7 +44,7 @@ build-rust-debug:
 
 # use release build to actually ship - smaller and much faster
 #
-# See https://github.com/CosmWasm/wasmvm/issues/222#issuecomment-880616953 for two approaches to
+# See https://github.com/evoblockchain/wasmvm/issues/222#issuecomment-880616953 for two approaches to
 # enable stripping through cargo (if that is desired).
 build-rust-release:
 	(cd libwasmvm && cargo build --release)
@@ -97,7 +97,7 @@ release-build-windows:
 
 update-bindings:
 # After we build libwasmvm, we have to copy the generated bindings for Go code to use.
-# We cannot use symlinks as those are not reliably resolved by `go get` (https://github.com/CosmWasm/wasmvm/pull/235).
+# We cannot use symlinks as those are not reliably resolved by `go get` (https://github.com/evoblockchain/wasmvm/pull/235).
 	cp libwasmvm/bindings.h internal/api
 
 release-build:

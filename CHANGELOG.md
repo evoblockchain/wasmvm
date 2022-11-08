@@ -13,9 +13,9 @@ and this project adheres to
 - Add IBC and Stargate message types ([#167], [#174])
 - Expose IBC entry points and AnalyzeCode ([#167], [#174])
 
-[#167]: https://github.com/CosmWasm/wasmvm/pull/167
-[#174]: https://github.com/CosmWasm/wasmvm/pull/174
-[#197]: https://github.com/CosmWasm/wasmvm/pull/197
+[#167]: https://github.com/evoblockchain/wasmvm/pull/167
+[#174]: https://github.com/evoblockchain/wasmvm/pull/174
+[#197]: https://github.com/evoblockchain/wasmvm/pull/197
 
 ### Changed
 

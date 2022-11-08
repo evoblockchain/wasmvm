@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmvm/types"
+	"github.com/evoblockchain/wasmvm/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

@@ -215,7 +215,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             # Custom read/write deployment key with private key stored on CircleCI
-            # (see https://app.circleci.com/settings/project/github/CosmWasm/wasmvm/ssh and https://github.com/CosmWasm/wasmvm/settings/keys)
+            # (see https://app.circleci.com/settings/project/github/CosmWasm/wasmvm/ssh and https://github.com/evoblockchain/wasmvm/settings/keys)
             - "31:de:e5:84:1b:12:81:94:aa:06:50:c0:cb:bd:79:f0"
       - checkout
       - run:
@@ -230,7 +230,7 @@ jobs:
       - run:
           name: Configure git user
           # This is not a GitHub user and no permissions can be configured other than "push access", which
-          # we can configure for Deploy keys at https://github.com/CosmWasm/wasmvm/settings/keys
+          # we can configure for Deploy keys at https://github.com/evoblockchain/wasmvm/settings/keys
           command: |
             git config user.email "wasmvm@circleci.confio.example.com"
             git config user.name "Deployer"
